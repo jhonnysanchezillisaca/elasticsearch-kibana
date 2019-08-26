@@ -31,7 +31,7 @@ services:
         target: /usr/share/elasticsearch/config/certs/elasticsearch/elasticsearch.key
       - source: elasticsearch.crt
         target: /usr/share/elasticsearch/config/certs/elasticsearch/elasticsearch.crt
-    ports: ['9200:9200']
+    ports: ['9201:9200']
     networks: ['stack']
     volumes:
       - 'es_data:/usr/share/elasticsearch/data'
