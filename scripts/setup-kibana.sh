@@ -11,7 +11,7 @@ do
 done
 ls -l $cacert
 
-es_url=https://elasticsearch:9201
+es_url=https://elasticsearch:9200
 # Wait for Elasticsearch to start up before doing anything.
 
 
